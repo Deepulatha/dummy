@@ -32,6 +32,14 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     </plugins>
   </build>
   <dependencies>
+	  <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.9.0</version>
+    <scope>test</scope>
+</dependency>
+
   	<dependency>
   		<groupId>org.seleniumhq.selenium</groupId>
   		<artifactId>selenium-java</artifactId>
@@ -67,11 +75,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
   		<groupId>com.google.inject</groupId>
   		<artifactId>guice</artifactId>
   		<version>7.0.0</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>org.com.maven</groupId>
-  		<artifactId>Bddautomation</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
   	<dependency>
 			<groupId>com.relevantcodes</groupId>
